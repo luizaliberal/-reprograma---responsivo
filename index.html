@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Portfólio Luiza Liberal</title>
+    <title>Luiza Liberal</title>
     <!-- EXERCÍCIO 2 -->
 </head>
 
@@ -14,14 +14,14 @@
     <header>
         <nav id="menu">
             <ul class="nav_lista">
-                    <li><a class="nav_lista-link" href="http://" target="_blank">
-                    Home</a></li>
-                    <li><a class="nav_lista-link" href="https://github.com/luizaliberal" target="_blank">
-                    Portfólio</a></li>
-                    <li><a class="nav_lista-link" href="http://" target="_blank">
-                    Sobre</a></li>
-                    <li><a class="nav_lista-link" href="http://" target="_blank">
-                    Contato</li>
+                <li><a class="nav_lista-link" href="http://" target="_blank">
+                        Home</a></li>
+                <li><a class="nav_lista-link" href="https://github.com/luizaliberal" target="_blank">
+                        Portfólio</a></li>
+                <li><a class="nav_lista-link" href="http://" target="_blank">
+                        Sobre</a></li>
+                <li><a class="nav_lista-link" href="http://" target="_blank">
+                        Contato</li>
                 </a>
 
             </ul>
@@ -30,15 +30,22 @@
         <div class="banner">
             <h1 class="banner_title"> Olá, eu sou <b class="banner_title-color"> Luiza </b>
             </h1>
-            <h4 style= "font-size: smaller; font-weight: lighter;" >           
+            <h4 class="banner_title-description" style="font-size: smaller; font-weight: lighter;">
 
                 Front-End Developer, IT enthusiastic and Innovation lover </h4>
-            <div class="icone" style="
-            padding-top: 25px;
-            padding-bottom: 25px;
-            padding-left: 50px;
-            padding-right: 50px;">
-                <img src="assets/moon.svg" class="icone_img" alt="Icone da lua com alguns planetas em sua órbita">
+            <div class="icone">
+                <img src="./assets/seta02.svg" class="icone_img_accordion" id="seta_img_accordion"
+                    alt="clique aqui para ver mais informações sobre mim">
+                <div class="sobreMim sobreMim--invisible" id="sobreMim sobreMim--invisible">
+                    <h4 class="titles"> Sobre mim </h4>
+                    <h5 style="font-size: smaller; font-weight: lighter;" class="sobreMim_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+                        iure quod, unde voluptate possimus neque nihil illum consequatur repudiandae ipsam qui
+                        praesentium aliquam incidunt. Molestiae voluptas deleniti dolores ratione officiis!</h5>
+                    <!-- <div class="btn_curriculo">
+                                <a target="_blank" href="" class="btn_curriculo"> Acesse aqui</a>
+                            </div> -->
+
+                </div>
             </div>
         </div>
     </header>
@@ -53,17 +60,18 @@
                         alt="Imagem do site produzido na primeira aula do reprograma, com o menu roxo, uma foto de uma turma de mulheres e três caixas falando dos cursos que o reprograma tem de front end, online e back end.">
                     <h3 class="site_title"> Site elaborado na primeira aula do workshop {reprograma} com design
                         responsivo, utilizando HTML e CSS.
-    
+
                     </h3>
                     <div class="btn">
-                        <a href="https://luizaliberal.netlify.com/" target="_blank" class="btn_link"> <b>Acesse aqui</b></a>
+                        <a href="https://luizaliberal.netlify.com/" target="_blank" class="btn_link"> <b>Acesse
+                                aqui</b></a>
                     </div>
                 </div>
 
                 <div class="site">
                     <img class="site_img" src="assets/site2.PNG"
                         alt="Imagem do site produzido no primeiro workshop do reprograma, com hearder de uma imagem que tem escrito we like you, e uma apresentação Olá, eu sou Luiza Liberal.">
-                    <h3 class="site_title"> Site elaborado no workshop inicial do {reprograma}, utilizando HTML e CSS. 
+                    <h3 class="site_title"> Site elaborado no workshop inicial do {reprograma}, utilizando HTML e CSS.
                     </h3>
 
                     <div class="btn">
@@ -108,6 +116,8 @@
     <footer>
         <h5>Desenvolvido por: Caroline Silva e Luiza Liberal {reprograma}</h5>
     </footer>
+
+    <script src="./js/script.js"></script>
 
 </body>
 
